@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity"
+        android:padding="10dp">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/cv0"
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="5dp" >
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Guide"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cv0"
+            android:id="@+id/cvll1"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cv1"
+                android:background="@color/cyan"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/ivstudent"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/children2_12"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Children 2-12 years old"
+                    android:layout_below="@id/ivstudent"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvs"
+                    android:layout_marginTop="5dp"
+
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cv0"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cvll2"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cv2"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/babiesbelow2"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Babies Below 2 yers"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvfac"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cvll1"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:id="@+id/cvll3"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cv3"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/ivtimetable"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/baby1_6months"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Infants"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvtt"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cvll1"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:id="@+id/cvll4"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/cv4"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/transport"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/olderadults"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Older Adults"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvtransport"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cvll3"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:id="@+id/ncvll3"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/ncv3"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/nivtimetable"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/pregnent"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pregnent &amp; Lectating Women"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/ntvtt"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cvll4"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:id="@+id/cvll4n"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/ncv4"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/ntransport"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/teens"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teens"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/ntvtransport"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/ncvll3"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:id="@+id/mcvll3"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/mcv3"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/mivtimetable"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/womenofchildbearingage"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Women Of Child Bearing Age"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/mtvtt"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="195dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cvll4n"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:id="@+id/cvll4m"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/nncv4"
+                android:background="@color/cyan"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:id="@+id/nntransport"
+                    android:layout_gravity="center"
+                    android:layout_height="150dp"
+                    android:src="@drawable/youngadults"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Young Adults"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/ivfaculty"
+                    android:layout_gravity="center"
+                    android:id="@+id/nntvtransport"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</ScrollView>
